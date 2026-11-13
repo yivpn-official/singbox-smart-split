@@ -1,0 +1,11 @@
+{
+  "name": "@yivpn/singbox-smart-split",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Minimal zero-dependency sing-box 1.12+ route rule generator for LAN, banking, and Smart Split tunneling.",
+  "scripts": {
+    "build": "node src/generate-route.mjs",
+    "test": "node src/generate-route.mjs --check"
+  }
+}
